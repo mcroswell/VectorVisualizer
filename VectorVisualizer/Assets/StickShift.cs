@@ -88,6 +88,7 @@ public class StickShift : MonoBehaviour
                 //Quaternion rot = Quaternion.FromToRotation(_mouseDownRotVec, pointOnSphere);
                 _stick._end = _stick._start + ( _stick.GetMagnitude() * pointOnSphere.normalized );
             }
+            // Frank was here.
         }
     }
 
